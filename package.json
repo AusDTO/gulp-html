@@ -1,0 +1,31 @@
+{
+  "name": "gulp-html",
+  "version": "0.4.4",
+  "description": "gulp plugin for HTML validation, using vnu.jar",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/watilde/gulp-html.git"
+  },
+  "keywords": [
+    "gulpplugin",
+    "htmllint"
+  ],
+  "author": "Daijiro Wachi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watilde/gulp-html/issues"
+  },
+  "homepage": "https://github.com/watilde/gulp-html",
+  "devDependencies": {
+    "gulp": "^3.8.10"
+  },
+  "dependencies": {
+    "gulp-util": "^3.0.2",
+    "merge": "^1.2.0",
+    "through2": "^1.1.1"
+  }
+}
